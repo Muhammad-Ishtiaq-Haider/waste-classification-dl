@@ -1,0 +1,22 @@
+{
+  "best_model": "mobilenet_v2",
+  "test_accuracy": 0.9315789473684211,
+  "validation_accuracy_by_model": {
+    "mobilenet_v2": 0.9445910290237467,
+    "resnet18": 0.9234828496042217,
+    "efficientnet_b0": 0.9393139841688655
+  },
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "split": {
+    "train": 1768,
+    "val": 379,
+    "test": 380
+  }
+}
